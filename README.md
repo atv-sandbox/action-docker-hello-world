@@ -1,11 +1,6 @@
-# action-docker-hello-world
-Testing how to use a custom action to use a docker container in a workflow
-
-Used the folowing guide from GutHub: https://docs.github.com/en/enterprise-server@2.22/actions/creating-actions/creating-a-docker-container-action
-
 # Hello world docker action
 
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+This action prints "Hello World" to the log or "Hello" + the name of a person to greet. To learn how this action was built, see "[Creating a Docker container action](https://help.github.com/en/articles/creating-a-docker-container-action)" in the GitHub Help documentation.
 
 ## Inputs
 
@@ -22,7 +17,7 @@ The time we greeted you.
 ## Example usage
 
 ```yaml
-uses: atv-sandbox/action-docker-hello-world@master
+uses: actions/hello-world-docker-action@master
 with:
   who-to-greet: 'Mona the Octocat'
 ```
