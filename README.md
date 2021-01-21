@@ -21,6 +21,8 @@ The time we greeted you.
 
 ## Example usage
 
-uses: actions/hello-world-docker-action@v1
+```yaml
+uses: atv-sandbox/action-docker-hello-world@master
 with:
   who-to-greet: 'Mona the Octocat'
+```
